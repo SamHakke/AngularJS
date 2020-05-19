@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>scope vs rootScope</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script src="sco.js"></script>
+</head>
+	<body ng-app="myApp">
+		<div ng-controller="controller1">
+			{{name}}
+			<br/>
+			{{msg2}}
+		</div>
+		<br/>
+		<div ng-controller="controller2">
+			{{name}}
+			<br/>
+			{{msg1}}
+		</div>
+	</body>
+</html>
