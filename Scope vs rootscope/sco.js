@@ -21,4 +21,4 @@ app.controller("controller2",function ($scope,$rootScope) {
 	$rootScope.msg2="Hey......It's Controller2....";
 
 });
-//So,the 'scope' used for declare local variable and 'rrotScope' is used for global variable declaration.
+//So,the 'scope' used for declare local variable and 'rootScope' is used for global variable declaration.
